@@ -10,21 +10,22 @@
 #define LinkedHashEntry_hpp
 
 #include <stdio.h>
+#include "string"
 
 class LinkedHashEntry {
     
 private:
     
     int key;
-    int value;
+    std::string value;
     LinkedHashEntry *next;
     
 public:
     
-    LinkedHashEntry(int key, int value);
+    LinkedHashEntry(int key, std::string value);
     int getKey();
-    int getValue();
-    void setValue(int value);
+    std::string getValue();
+    void setValue(std::string value);
     LinkedHashEntry *getNext();
     void setNext(LinkedHashEntry *next);
     
