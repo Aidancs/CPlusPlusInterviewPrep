@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08162BE51DF508C7000725CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08162BE41DF508C7000725CC /* main.cpp */; };
+		08162BF51DF62AA4000725CC /* LinkedHashEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08162BF31DF62AA4000725CC /* LinkedHashEntry.cpp */; };
+		08162BF81DF62ABA000725CC /* HashMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08162BF61DF62ABA000725CC /* HashMap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		08162BE11DF508C7000725CC /* HashTableImp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashTableImp; sourceTree = BUILT_PRODUCTS_DIR; };
 		08162BE41DF508C7000725CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		08162BF31DF62AA4000725CC /* LinkedHashEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedHashEntry.cpp; sourceTree = "<group>"; };
+		08162BF41DF62AA4000725CC /* LinkedHashEntry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedHashEntry.hpp; sourceTree = "<group>"; };
+		08162BF61DF62ABA000725CC /* HashMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashMap.cpp; sourceTree = "<group>"; };
+		08162BF71DF62ABA000725CC /* HashMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashMap.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				08162BE41DF508C7000725CC /* main.cpp */,
+				08162BF31DF62AA4000725CC /* LinkedHashEntry.cpp */,
+				08162BF41DF62AA4000725CC /* LinkedHashEntry.hpp */,
+				08162BF61DF62ABA000725CC /* HashMap.cpp */,
+				08162BF71DF62ABA000725CC /* HashMap.hpp */,
 			);
 			path = HashTableImp;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08162BF81DF62ABA000725CC /* HashMap.cpp in Sources */,
 				08162BE51DF508C7000725CC /* main.cpp in Sources */,
+				08162BF51DF62AA4000725CC /* LinkedHashEntry.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				08162BEA1DF508C7000725CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
