@@ -40,13 +40,13 @@
             
             else
                 
-                return entry->getValue();
+                return stoi(entry->getValue());
             
         }
         
     }
     
-    void HashMap::put(int key, int value) {
+void HashMap::put(int key, std::string value) {
         
         int hash = (key % TABLE_SIZE);
         

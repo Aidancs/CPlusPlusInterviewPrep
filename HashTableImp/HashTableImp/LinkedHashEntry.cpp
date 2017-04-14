@@ -8,7 +8,7 @@
 
 #include "LinkedHashEntry.hpp"
 
-LinkedHashEntry::LinkedHashEntry(int key, int value) {
+LinkedHashEntry::LinkedHashEntry(int key, std::string value) {
     
     this->key = key;
     this->value = value;
@@ -22,13 +22,13 @@ int LinkedHashEntry::getKey() {
     
 }
 
-int LinkedHashEntry::getValue() {
+std::string LinkedHashEntry::getValue() {
     
     return value;
     
 }
 
-void LinkedHashEntry::setValue(int value) {
+void LinkedHashEntry::setValue(std::string value) {
     
     this->value = value;
     

@@ -26,7 +26,7 @@ public:
     
     HashMap();
     int get(int key);
-    void put(int key, int value);
+    void put(int key, std::string value);
     void remove(int key);
     ~HashMap();
     
